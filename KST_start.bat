@@ -1,0 +1,1 @@
+start "KST is running" Kst\bin\kst2.exe KST_profile.kst

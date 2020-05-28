@@ -1,0 +1,1 @@
+PowerShell -NoProfile -ExecutionPolicy Unrestricted -Command "& {Start-Process "$Env:WINDIR\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -ArgumentList '-NoProfile -ExecutionPolicy Unrestricted -File ""%~dp0fsLogger.ps1""' -Verb RunAs}";

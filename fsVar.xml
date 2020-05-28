@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fs>
+    <!-- <var name="Title" type="string"/> :Name of plane--> 
+    <var name="ABSOLUTE TIME" type="double" unit="seconds"/>
+
+    <!-- Simulation Variables. These provide data about current state of user aircraft https://docs.microsoft.com/en-us/previous-versions/microsoft-esp/cc526981(v=msdn.10)?redirectedfrom=MSDN#AircraftLandingGearData-->
+    <!-- Position -->
+    <var name="Plane Altitude" type="double" unit="feet"/>
+	<var name="Indicated Altitude" type="double" unit="feet"/>
+    <var name="Airspeed True" type="double" unit="knots"/>
+    <var name="Airspeed Indicated" type="double" unit="knots"/>
+    
+    <var name="Plane Pitch Degrees" type="double" unit="degrees"/>
+    <var name="Plane Bank Degrees" type="double" unit="degrees"/>
+    <var name="Plane Heading Degrees True" type="double" unit="degrees"/>
+    <var name="Plane Heading Degrees Magnetic" type="double" unit="degrees"/>
+    
+    <var name="Acceleration Body X" type="double" unit="Gforce"/>
+    <var name="Acceleration Body Y" type="double" unit="Gforce"/>
+    <var name="Acceleration Body Z" type="double" unit="Gforce"/>
+    
+    <var name="Plane Latitude" type="double" unit="degrees latitude"/>
+    <var name="Plane Longitude" type="double" unit="degrees longitude"/>
+    
+    <var name="Incidence Alpha" type="double" unit="degrees"/>
+    <var name="Incidence Beta" type="double" unit="degrees"/>
+	
+    <var name="Rotation Velocity Body X" type="double" unit="degrees per second"/>
+	<var name="Rotation Velocity Body Y" type="double" unit="degrees per second"/>
+	<var name="Rotation Velocity Body Z" type="double" unit="degrees per second"/>
+	
+	<var name="General Eng RPM:1" type="double" unit="rpm"/>
+	<var name="General Eng RPM:2" type="double" unit="rpm"/>
+	<var name="General Eng RPM:3" type="double" unit="rpm"/>
+	<var name="General Eng RPM:4" type="double" unit="rpm"/>
+	
+    <var name="Elevator Deflection" type="double" unit="degrees"/>
+    <var name="Rudder Deflection" type="double" unit="degrees"/>
+	<var name="Aileron Left Deflection" type="double" unit="degrees"/>
+	<var name="Aileron Right Deflection" type="double" unit="degrees"/>
+	
+	<var name="Trailing Edge Flaps Left Angle" type="double" unit="degrees"/>
+	<var name="Trailing Edge Flaps Right Angle" type="double" unit="degrees"/>
+	<var name="Leading Edge Flaps Left Angle" type="double" unit="degrees"/>
+	<var name="Leading Edge Flaps Right Angle" type="double" unit="degrees"/>
+
+	<var name="Spoilers Left Position" type="double" unit="percent over 100"/>
+	<var name="Spoilers Right Position" type="double" unit="percent over 100"/>
+
+	<var name="Gear Center Position" type="double" unit="percent over 100"/>
+	<var name="Gear Left Position" type="double" unit="percent over 100"/>
+	<var name="Gear Right Position" type="double" unit="percent over 100"/>
+
+
+</fs>
