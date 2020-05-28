@@ -34,4 +34,5 @@ The script is based on the PowerShell code in the FSX RESTful API project by par
 * SimConnect seems to only work for the first Flight Simulator installation (known bug in SimConnect)
 * The script does not work properly if you change time of day mid flight, as it uses the time for detection of new datapoints.
    * Solution: Restart the script
+* The script is quite simple, hence there is almost no error handling or other fancy features.
 
