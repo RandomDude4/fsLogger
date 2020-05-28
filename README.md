@@ -27,6 +27,15 @@ If you also have installed KST and the variable $startKST (in fsLogging.ps1) is 
 fsVar.xml contains all the variables that is extracted.
 All variables that can be added or used can be found here: https://docs.microsoft.com/en-us/previous-versions/microsoft-esp/cc526981(v=msdn.10)
 
+## Screenshots
+Here are a few screenshots of the data collected by default and the default KST profile for real-time analysis. The data shows a simple take off with a dual engine aircraft, with flaps and gear retraction. The KST profile is divided into two tabs both showing the same time axis.
+
+Flight variables:
+![Flight variables](/Screenshots/Flight_variables.png)
+
+Airplane control surfaces:
+![Plane control surfaces](/Screenshots/Plane_controls.png)
+
 ## References
 The script is based on the PowerShell code in the FSX RESTful API project by pariljain (https://github.com/paruljain/fsx).
 
