@@ -31,6 +31,8 @@ All variables that can be added or used can be found here: https://docs.microsof
 The script is based on the PowerShell code in the FSX RESTful API project by pariljain (https://github.com/paruljain/fsx).
 
 ## Known issues
+* Positive Pitch and Pitch-rate is defined as a negative angle in SimConnect 
+   * (probably has to do with left/right handed coordinate system in the simulator for the math to be correct)
 * SimConnect seems to only work for the first Flight Simulator installation (known bug in SimConnect)
 * The script does not work properly if you change time of day mid flight, as it uses the time for detection of new datapoints.
    * Solution: Restart the script
