@@ -9,7 +9,7 @@ This can be used to analyze flight details, such as climb rate, G-forces, bank a
 * PowerShell v3 or higher
 * FSX SP2 (or "newer")
 * .Net 4.5 or higher
-* (Otional) KST2 data visualization tool
+* (Optional) KST2 data visualization tool
 
 ## Installation
 1. Place **fsLogger** files in any directory of your choice (where you have write access)
@@ -23,8 +23,9 @@ Double click START.bat
 This will open a PowerShell console in admin mode (you need admin rights) that connects to the simulator and it creates a Data.csv file which updates contineously as long as the simulation is running.
 
 If you also have installed KST and the variable $startKST (in fsLogging.ps1) is set to "1", then KST will start and display all data in real time.
+To reopen an existing Data.csv file (or the included example file) run KST_start.bat
 
-fsVar.xml contains all the variables that is extracted.
+fsVar.xml contains all the variables that are extracted.
 All variables that can be added or used can be found here: https://docs.microsoft.com/en-us/previous-versions/microsoft-esp/cc526981(v=msdn.10)
 
 ## Screenshots
