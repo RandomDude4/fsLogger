@@ -12,7 +12,8 @@ This can be used to analyze flight details, such as climb rate, G-forces, bank a
 * (Optional) KST2 data visualization tool
 
 ## Installation
-1. Place **fsLogger** files in any directory of your choice (where you have write access)
+1. Download the script from: https://github.com/RandomDude4/fsLogger/releases
+1. Extract **fsLogger** files in any directory of your choice (where you have write access)
 1. Install SimConnect (Microsoft API for communicating with the simulation)
    1. This is the same client used by for example Little Navmap (should be version 10.0.61259)
    1. Example of download location: https://www.littlenavmap.org/downloads/SimConnect/
