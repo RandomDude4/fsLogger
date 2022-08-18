@@ -76,7 +76,7 @@ while ($global:fsConnected) {
 		$str | Out-File "$csvfile" -Append -Encoding UTF8 
 		
 		# Start KST if it has closed
-		if ($startKST) { 
+		if ($startKST -and (Test-Path -path ".\Kst\bin\kst2.exe")) { 
 			if ([math]::Round($t_new/4) -gt [math]::Round($t_prev/4) ) {
 				$kstproc = Get-Process kst2 -ErrorAction SilentlyContinue
 				if (!$kstproc) {
